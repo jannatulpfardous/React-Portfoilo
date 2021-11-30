@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import {faMapMarker,faPhone,faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons';
 
 import '../../Components/Carousel/Carousel.css'
 
@@ -71,13 +74,13 @@ const Contact = () => {
 
                         <br />
 
-                        <h5> Mirpur-1,Block-D, Dhaka-1216</h5>
+                        <h5> <FontAwesomeIcon icon={faMapMarker} style={{color:"red", fontSize:"20px"}}></FontAwesomeIcon>Mirpur-1,Block-D, Dhaka-1216</h5>
                         <br />
 
-                        <h5>+8801860514118</h5>
+                        <h5><FontAwesomeIcon icon={faPhone} style={{color:"red", fontSize:"20px"}}></FontAwesomeIcon> +8801860514118</h5>
                         <br />
 
-                        <h5> an.jannatulfardous@gmail.com</h5>
+                        <h5> <FontAwesomeIcon icon={faEnvelopeSquare} style={{color:"red", fontSize:"20px"}}></FontAwesomeIcon> an.jannatulfardous@gmail.com</h5>
                         <br />
                     </div>
 

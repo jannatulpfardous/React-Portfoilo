@@ -1,6 +1,8 @@
 import React from 'react';
 
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
+import {faIdCard,faUserGraduate,faFillDrip,faChalkboardTeacher,faLanguage} from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
 
@@ -26,7 +28,7 @@ const About = () => {
 
                     <div class="row justify-content-around ">
                         <div class="col-4">
-                            <h3> About Me</h3>
+                            <h3><FontAwesomeIcon icon={faIdCard} style={{color:"red", fontSize:"20px"}}></FontAwesomeIcon> About Me</h3>
                             <div class="col-lg-6 offset-lg-1 offset-md-0 offset-sm-0 col-md-12 col-sm-12 ">
                                
                             </div>
@@ -40,7 +42,7 @@ const About = () => {
                         </div>
                         <hr />
                         <div class="col-4">
-                            <h3>Education</h3>
+                            <h3><FontAwesomeIcon icon={faUserGraduate} style={{color:"red", fontSize:"20px"}}></FontAwesomeIcon>Education</h3>
 
                         </div>
                         <div class="col-4">
@@ -52,7 +54,7 @@ const About = () => {
                         </div>
                         <hr />
                         <div class="col-4">
-                            <h3>Skills</h3>
+                            <h3><FontAwesomeIcon icon={faFillDrip} style={{color:"red", fontSize:"20px"}}></FontAwesomeIcon>Skills</h3>
                         </div>
                         <div class="col-4">
                             <p> html, css, Bootstrap, <br />
@@ -62,7 +64,7 @@ const About = () => {
                         </div>
                         <hr />
                         <div class="col-4">
-                            <h3>Professional Training</h3>
+                            <h3><FontAwesomeIcon icon={faChalkboardTeacher} style={{color:"red", fontSize:"20px"}}></FontAwesomeIcon>Professional Training</h3>
 
                         </div>
                         <div class="col-4">
@@ -72,7 +74,7 @@ const About = () => {
                         </div>
                         <hr />
                         <div class="col-4">
-                            <h3> Languages</h3>
+                            <h3><FontAwesomeIcon icon={faLanguage} style={{color:"red", fontSize:"20px"}}></FontAwesomeIcon>Languages</h3>
                         </div>
                         <div class="col-4">
                             <p>English</p>

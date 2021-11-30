@@ -1,5 +1,6 @@
 import React from 'react';
-
+import '../../Components/Carousel/Carousel.css';
+import pic from '../../Components/Carousel/1 (1).jpg';
 const Portfoilo = () => {
 
 
@@ -10,37 +11,42 @@ const Portfoilo = () => {
 
 
 
-        <div>
+        <div className="mt-4">
+
+            <div class="container">
 
 
-            <div className="row">
-                <div className="col-4">
-                    <div className="ms-5 mt-3 ps-5">
-                        <img className="img-fluid" style={{ height: '300px', width: '250px'}} src="http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"  alt="..." />
-                    </div>
-                </div>
-                <div className="col-4">
-                    <div className="ms-5 mt-3 ps-5">
-                        <img className="img-fluid" style={{ height: '300px', width: '250px' }} src="https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png"  alt="..." />
-                    </div>
-                </div>
-                <div className="col-4">
-                    <div className="ms-5 mt-3 ps-5">
-                        <img className="img-fluid" style={{height: '300px', width: '250px' }} src="https://i.ytimg.com/vi/afW4popSWn4/maxresdefault.jpg"  alt="..." />
-                    </div>
-                </div>
-                {/* <div className="col-6 text-center">
-                    <div className="m-4">
-                        <h2 style={{ fontFamily: "Besley" }}>How many types are there in fashion
-                            <span style={{ color: "rgb(214, 14, 114)", fontFamily: "Besley" }}> designer</span> ??</h2>
-                        <div className="m-5">
-                            <p style={{ fontFamily: "Besley" }}>Pursuing a fashion designing course will extensively enable you to understand the working of the fashion industry collaboratively – fashion design history, clothing textiles, sketching and drawing of outfits, fashion events, managing a fashion house etc. Fashion is unfathomably an adorable art.</p>
+
+                <div class="row">
+
+                    <h2 style={{ color: "black", textAlign: "center" }}>About Me</h2>
+
+                    <hr />
+                    <br />
+                    <div class="col-lg-4 offset-1 col-md-12 col-sm-12">
+
+                        <div className="my-5">
+                            <h3 className="text-center" style={{ color: "black" }}>About</h3>
+                            <p>Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website. </p>
+
+
+
                         </div>
+
                     </div>
-                </div> */}
+
+
+                    <div class="col-lg-6 offset-lg-1 offset-md-0 offset-sm-0 col-md-12 col-sm-12 text-center">
+                        <img className="se2 mt-5 pt-2 rounded img-car h-75 w-100" src={pic} alt="" />
+                    </div>
+
+
+
+
+                </div>
+
 
             </div>
-
 
         </div>
 

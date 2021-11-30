@@ -1,6 +1,9 @@
 import React from 'react';
 import '../Carousel/Carousel.css';
 // import picu from '../Carousel/1 (1).jpg';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
+import {faArrowRight} from '@fortawesome/free-solid-svg-icons';
 
 const Carousel = () => {
     return (
@@ -23,7 +26,7 @@ const Carousel = () => {
                             <p className="image_description">"I A'm A Front-end Developer "</p>
 
 
-                            <button class="btn btn-danger"> <a  class="text-decoration-none btn btn-danger text-bold"   href="https://drive.google.com/file/d/1LU4HSXIkOoKdYJFRkJTMYUE-rxCekr_C/view?usp=sharing"> Hire Me</a> </button>
+                            <button class="btn btn-danger"> <a  class="text-decoration-none btn btn-danger text-bold"   href="https://drive.google.com/file/d/1LU4HSXIkOoKdYJFRkJTMYUE-rxCekr_C/view?usp=sharing"> Hire Me <FontAwesomeIcon icon={faArrowRight} style={{color:"white", fontSize:"15px"}}></FontAwesomeIcon></a> </button>
 
 
 
